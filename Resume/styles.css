@@ -1,0 +1,167 @@
+/*Home */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 100px;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.Bezhan {
+    color: rgba(255, 255, 255, 0.3);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: #B8E1FC;
+    background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #ac75e7 50%, #231421 81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Haupt {
+    margin: 120px;
+}
+
+
+.navv {
+    background-color: #313030;
+}
+
+.navv ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navv li {
+    float: left;
+}
+
+.header li a.active {
+    font-weight: bold; 
+    font-size: large;
+}
+
+.navv a {
+    display: block;
+    color: rgb(211, 209, 209);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+navv a:hover {
+    background-color: #503838;
+    color: rgb(209, 76, 76);
+}
+
+
+
+
+  
+footer {
+    display: flex;
+    justify-content: center;
+    background: #b84e73;
+    background: linear-gradient(to left, #c48888 0%, #dd7777 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Impressum {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+
+/* lebenkauf */
+
+
+.Lebenslauf-Bild {
+    position: absolute;
+    top: 20;
+    right: 0;
+    height: auto;
+    
+}
+
+
+.LebenslaufNAME {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+
+.typewriter {
+    font-size: 2rem;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    animation: typing 2s steps(10, end), blink 1s step-end infinite;
+  }
+
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 8ch;
+    }
+  }
+  
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+
+  /* projekte */
+
+
+  
+  .Projekte img {
+    width: 800px;
+    height: 550px;
+}
+
+
+
+
+  
+
+  
+ 
+
+  
+
+
+
+
+
+
+    
+
+
+
